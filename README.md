@@ -1,0 +1,2 @@
+# vue-cli-plugin-pwa-advanced
+Plugin for vue-cli for advanced usage of PWA
