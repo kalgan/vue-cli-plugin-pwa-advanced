@@ -1,0 +1,36 @@
+{
+  "name": "vue-cli-plugin-pwa-advanced",
+  "version": "0.1.0",
+  "description": "Advanced PWA plugin for vue-cli",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soal/vue-cli-plugin-pwa-advanced.git",
+  },
+  "keywords": [
+    "vue",
+    "cli",
+    "pwa"
+  ],
+  "author": {
+    "name": "soal",
+    "email": "sorrrow.about.alice@gmail.com",
+    "url": "https://github.com/soal"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/soal/vue-cli-plugin-pwa-advanced/issues"
+  },
+  "homepage": "https://github.com/soal/vue-cli-plugin-pwa-advanced#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@vue/cli-shared-utils": "^3.4.0",
+    "webpack": ">=4 < 4.29",
+    "workbox-webpack-plugin": "^3.6.3"
+  },
+  "devDependencies": {
+    "register-service-worker": "^1.5.2"
+  }
+}
